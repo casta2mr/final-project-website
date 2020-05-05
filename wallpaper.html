@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="Matt Castaneda">
-        <meta name="description" content="Home - Nook's Cranny">
-        <title>Home - Nook's Cranny</title>
+        <meta name="description" content="Wallper & Flooring - Nook's Cranny">
+        <title>Wallpaper &amp; Flooring - Nook's Cranny</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Bangers&display=swap" rel="stylesheet">
@@ -41,21 +41,45 @@
         </nav>
 
         <main role="main">
+                        
+            <div class="spacer"></div>
             
-            <!-- Jumbotron -->
-            <div class="jumbotron text-center" style="background-image: url(images/building.png);">
-                <div class="container">
-                    <h1 class="display-3">Welcome to<br>Nook's Cranny</h1>
-                    <h2>Yes! Yes, of course!</h2>
-                    <h3>...of course!</h3>
-                    <h2>What do you need?</h2>
+            <!-- Carousel -->
+            <div class="container">
+                <div class="carousel slide" data-ride="carousel" id="wallpapercarousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block" src="images/basement-ss.jpg" alt="Basement">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" src="images/bathroom-ss.jpg" alt="Bathroom">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" src="images/music-ss.jpg" alt="Music Room">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#wallpapercarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#wallpapercarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
             
-            <!-- Timmy & Tommy -->
-            <div class="timmytommy">
-                <img src="images/timmy.png" class="timmy" alt="Timmy">
-                <img src="images/tommy.png" class="tommy" alt="Tommy">
+            <div aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Decor</li>
+                    <li class="breadcrumb-item active" aria-current="page">Wallpaper &amp; Flooring</li>
+                </ol>
+            </div>
+            
+            <div class="centerh1">
+                <br>
+                <h1>Wallpaper &amp; Flooring</h1>
             </div>
             
             <!-- Album -->
@@ -64,33 +88,43 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card mb-4 box-shadow">
-                                <div class="card-img">
-                                    <img class="card-img-top" src="images/turnip.png" alt="Turnip">
-                                    <div class="overlay">
-                                        <div class="center">
-                                            <a href="https://ac-turnip.com/" class="button">Turnip Price Calculator</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img class="card-img-top" src="images/wavywall.png" alt="Wavy Tile Wall">
                                 <div class="card-body">
-                                    <h2 class="card-text">Today's Turnip Price:</h2>
-                                    <p>136 Bells</p>
+                                    <h2 class="card-text">Wavy Tile Wall</h2>
+                                    <p>1,740 Bells</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card mb-4 box-shadow">
-                                <div class="card-img">
-                                    <img class="card-img-top" src="images/bookshelf.png" alt="Wooden-Block Bookshelf">
-                                    <div class="overlay">
-                                        <div class="center">
-                                            <a href="tool.html" class="button">DIY Recipes</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img class="card-img-top" src="images/colorfulwall.png" alt="Colorful Tile Wall">
                                 <div class="card-body">
-                                    <h2 class="card-text">Today's Hot Item:</h2>
-                                    <p>Wooden-Block Bookshelf: 1440 Bells</p>
+                                    <h2 class="card-text">Colorful Tile Wall</h2>
+                                    <p>1,420 Bells</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="album py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="images/darkfloor.png" alt="Dark Parquet Flooring">
+                                <div class="card-body">
+                                    <h2 class="card-text">Dark Parquet Flooring</h2>
+                                    <p>1,560 Bells</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="images/beigefloor.png" alt="Beige Desert-Tile Flooring">
+                                <div class="card-body">
+                                    <h2 class="card-text">Beige Desert-Tile Flooring</h2>
+                                    <p>2,100 Bells</p>
                                 </div>
                             </div>
                         </div>
